@@ -6,6 +6,7 @@
 
 
 $("document").ready(function(){
+    $('#superHumans').accordion({header:"h3"});
     $(".practice").css("background-color", "red");
     $("p span:first-child").css("background-colo","orange");
     $("div p:last-child").css("background-color","cyan");
@@ -13,7 +14,7 @@ $("document").ready(function(){
     $('p').bind('mouseover',mouseOverMe).bind('mouseout',mouseOutMe);
     $('#twoButton').bind('dblclick',dblClickedMe);
     $('#replaceWText').bind('click',replaceWText);
-    $('#removePara').bind('click',remoAPara);
+   // $('#removePara').bind('click',remoAPara);
    // $("form").submit(function()){alert("Submit button clicked")};
 //    $('#textBox1').bind('blur',onBlurEvent)
 //                  .bind('focus',onFocusEvent)

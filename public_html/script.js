@@ -14,6 +14,7 @@ $("document").ready(function(){
     $('p').bind('mouseover',mouseOverMe).bind('mouseout',mouseOutMe);
     $('#twoButton').bind('dblclick',dblClickedMe);
     $('#replaceWText').bind('click',replaceWText);
+    $('.jump').css('height', '200px');
    // $('#removePara').bind('click',remoAPara);
    // $("form").submit(function()){alert("Submit button clicked")};
 //    $('#textBox1').bind('blur',onBlurEvent)
